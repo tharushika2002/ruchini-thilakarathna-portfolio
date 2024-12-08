@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/education.css">
+    <link rel="stylesheet" href="/css/skill.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/prject.css">
+
+    <title>Ruchini Portfolio</title>
+
+</head>
+<body>
+    <!-- header -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Ruchini <span>Thilakarathna</span>
+            </div></a>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home"></a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#education">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about" >About </a>
+                <a href="#about" >About </a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="main-container">
+
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="" class="imageMain">
+            </div>
+
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Ruchini</span></h1>
+
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                  I'm a <span class="typewriter-text"></span><label>|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/tharushika2002" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/tharushika-thilakarathna-22660828a/overlay/about-this-profile/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <div class="btn-cv" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="/images/cv/Ruchini_Thilakarathna_CV.pdf"><button>Hire me</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- about section -->
+    <section id="about">
+        <div class="about-container">
+
+            <div class="about-image" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">
+                <p>Hello</p>
+            </div>
+
+            <div class="about-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000"><span>About me</span></h1>
+
+                <p data-aos="fade-down" data-aos-duration="1500" data-aos-delay="700">Creative and detail-oriented UI/UX design enthusiast with a strong foundation in web development, including HTML, CSS, and JavaScript. Currently a third-year undergraduate at SLIIT, I bring fresh, innovative ideas to every project and have extensive experience using Figma to design intuitive and user-friendly interfaces. Proficient in version control and skilled at working collaboratively in team-oriented environments. Passionate about blending technical expertise with creative thinking to deliver impactful digital experiences. Excited to contribute to forwardthinking projects while continuously advancing my skills in design and development.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- education section -->
+    <section id="education">
+        <div class="education-container">
+          <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
+            <span>Education</span>
+          </h1>
+          <div class="education-timeline">
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h2>BSc (Hones) in Information Technology</h2>
+                <h3>Undergraduate Student, Sri Lanka Institute of Information Technology</h3>
+                <p>Oct 2022 - Present</p>
+                <p>Relevant Coursework : Human Computer Interaction , Internet & Web Technologies , IT Project</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h2>Certificates courese</h2>
+                <h3>University of Moratuwa</h3>
+                <p>Sep 2024 - present</p>
+                <p>Certificates course for python programming and web development</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h2>Advance Level</h2>
+                  <h3>Eheliyagoda Central College - Physical Science Stream </h3>
+                  <p>2019 - 2022</p>
+                  <p>Physics - (A)</p>
+                  <p>Chemistry - (B)</p>
+                  <p>Combined Mathematics -(C)</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skill section-->
+      <section id="skills">
+        <div>
+          <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
+            <span>Skills</span>
+          </h1>
+        </div>
+        <div class="skills-container">
+          <!-- Web Development -->
+          <div class="skills-category">
+            <h2>Web Development</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/html.svg" alt="HTML Logo" class="skill-logo" />
+                <p><strong>HTML</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/css.svg" alt="CSS Logo" class="skill-logo" />
+                <p><strong>CSS</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/js.png" alt="JavaScript Logo" class="skill-logo" />
+                <p><strong>JavaScript</strong></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- UX/UI -->
+          <div class="skills-category">
+            <h2>UX/UI</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/figma.svg" alt="Figma Logo" class="skill-logo" />
+                <p><strong>Figma</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/canva.png" alt="Canva Logo" class="skill-logo" />
+                <p><strong>Canva</strong></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Programming -->
+          <div class="skills-category">
+            <h2>Programming</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/java.svg" alt="Java Logo" class="skill-logo" />
+                <p><strong>Java</strong></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Libraries -->
+          <div class="skills-category">
+            <h2>Libraries</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/react.svg" alt="React.js Logo" class="skill-logo" />
+                <p><strong>React.js</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/tailwind.svg" alt="Tailwind CSS Logo" class="skill-logo" />
+                <p><strong>Tailwind</strong></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Database -->
+          <div class="skills-category">
+            <h2>Database</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/mysql.svg" alt="MySQL Logo" class="skill-logo" />
+                <p><strong>MySQL</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/server.png" alt="MySQL Server Management Logo" class="skill-logo" />
+                <p><strong>SQL Server</strong></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Others -->
+          <div class="skills-category">
+            <h2>Others</h2>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <img src="/images/skills/git.svg" alt="Git Logo" class="skill-logo" />
+                <p><strong>Git</strong></p>
+              </li>
+              <li class="skill-item">
+                <img src="/images/skills/github.svg" alt="GitHub Logo" class="skill-logo" />
+                <p><strong>GitHub</strong></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <!-- projects section -->
+    <section id="projects">
+        <div class="projects-container">
+            <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1500" class="projects-title">
+                <span>Projects</span>
+            </h1>
+            <div class="projects-category">
+                <h2 class="category-title">Figma UI Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Figma Project 01 - BookBug moblie app -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="project-card-img">
+                            <img src="/images/bookbug.png" alt="Figma Project 1">
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Figma Project 01 - BookBug moblie app</h5>
+                            <div class="btn-all">
+                                <a href="https://www.figma.com/design/jOhuUEWvVhtmLaFMXgFREb/Untitled?node-id=0-1&t=C9l1vGvi92xxKMBN-1" target="_blank" class="project-link">View on Figma</a>
+                               
+                                <button class="show-more-btn" data-description="Sri Lanka Institute of Information Technology | Y2S2 -IT2010-Mobile Application Development
+                                Developed a mobile application using Figma"
+                                data-images='["/images/bookbug.png"]'>
+                                    Show More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Figma Project 02 - Blinkee.com web app-->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="project-card-img">
+                            <img src="/images/blinkee_all.png" alt="Figma Project 1">
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Figma Project 02 - Blinkee.com web app</h5>
+                            <div class="btn-all">
+                                <a href="https://www.figma.com/design/tuxWC8HDASdg4btEqvmz95/HCI-UI?node-id=0-1&t=J636HFv9OksieZPn-1" target="_blank" class="project-link">View on Figma</a>
+                                <button class="show-more-btn" data-description="Sri Lanka Institute of Information Technology | Y2S2 -IT3060-Human Computer Interaction
+                                Redesigned a website in low fidelity and high fidelity using Figma."
+                                data-images='["/images/blinkee_all.png", "/images/blinkee_home.png", "/images/blinkee01.png", "/images/blinkee02.png", "/images/blinkee03.png"]'>
+                                    Show More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-category">
+                <h2 class="category-title">Development Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Fresh4You Fruit Management System -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="project-card-img">
+                            <img src="/images/mern_project.png" alt="Development Project 1">
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Fresh4You Fruit Management System</h5>
+                            <div class="btn-all">
+                                <a href="https://github.com/vidura002/Fresh4You-Shop-Managment-System/tree/newTestBranch" target="_blank" class="project-link">View on GitHub</a>
+                                <button class="show-more-btn" 
+                                data-description="Sri Lanka Institute of Information Technology | Y2S2 -IT2080-IT Project Module <br/> Developed a full-stack web application using MERN Stack, Tailwind CSS, and Material UI. Designed the prototype in Figma and implemented key features, including fruit offer management (add, edit, delete), dashboard, searchable table, sort-out and report generation. Utilized Visual Studio Code for development and GitHub for version control." 
+                                data-images='["/images/mern_project.png", "/images/offers_table.png", "/images/add_offer.png", "/images/update_offers.png"]'>
+                                Show More
+                            </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HTML , CSS , JS : To-Do App-->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="project-card-img">
+                            <img src="/images/todo.png" alt="Development Project 1">
+                        </div>
+                        <div class="project-card-body">
+                            <h5>HTML , CSS , JS : To-Do App</h5>
+                            <div class="btn-all">
+                                <a href="https://github.com/tharushika2002/To-Do-App-Haven-t-Update" target="_blank" class="project-link">View on GitHub</a>
+                                <button class="show-more-btn" 
+                                data-description="Developed this website to learn and practice HTML, CSS, JS and focusing on functions and human attraction. It
+                                includes the page using HTML and JS."
+                                data-images='["/images/todo.png"]'>
+                                    Show More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HTML , CSS , JS : Weather App -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                        <div class="project-card-img">
+                            <img src="/images/weather.png" alt="Development Project 1">
+                        </div>
+                        <div class="project-card-body">
+                            <h5>HTML , CSS , JS : Weather App</h5>
+                            <div class="btn-all">
+                                <a href="https://github.com/tharushika2002/climateApp" target="_blank" class="project-link">View on GitHub</a>
+                                <button class="show-more-btn" 
+                                data-description="Developed this website to learn and practice HTML, CSS, JS and focusing on functions and human attraction. It
+                                includes the page using HTML and JS."
+                                data-images='["/images/weather.png"]'>
+                                    Show More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Container -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-images" class="modal-images">
+                <button class="prev-btn">&lt;</button>
+                <img id="modal-image" src="" alt="Project Image">
+                <button class="next-btn">&gt;</button>
+            </div>
+            <span class="close-btn">&times;</span>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    
+    <!-- contact section -->
+    <section id="contact">
+            <div class="form-container">
+                <div class="contact-form" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                    <h2>Contact Me</h2>
+                    <form id="contact-form" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        <div class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-all">
+                <div class="contact-icons">
+                    <!-- Phone Icon -->
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                        <a href="tel:+1234567890" >
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <span>+94 77 544 7361</span>
+                    </div>
+                    <!-- Mail Icon -->
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <a href="mailto:example@mail.com" >
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <span>stthruu123@gmail.com</span>
+                    </div>
+                    <!-- Location Icon -->
+                    <div target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <a href="https://maps.google.com" >
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <span>Athurugiriya</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <hr>
+      <p>© 2024 Ruchini Thilakarathna. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
